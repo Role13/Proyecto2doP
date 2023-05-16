@@ -19,43 +19,77 @@ body {
     margin: 0px;
 }
 
+.item1 { 
+    grid-area: header; 
+    position: fixed;
+    width:100%;
+}
+.item3 {
+    grid-area: main; 
+    margin-top: 160px;
+}
+.item4 { 
+    grid-area: right; 
+}
+.item5 { 
+    grid-area: footer; 
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'main main main main right right'
+    'footer footer footer footer footer footer';
+  gap: 10px;
+  padding: 0px;
+}
+
 section {
     height: 140px;
     background: rgb(191, 16, 0);
-  }
-  section span {
+}
+section span {
     margin: 0;
-    font-size: 200%;
+    font-size: 100%;
     text-align: center;
     line-height: 1;
-    padding-top: calc(5px);
-    margin-left: 230px;
+    padding-top: 5px;
+    margin-left: 200px;
     display: block;
-  }
+}
 
 nav a {
-    display: inline-block;
-    outline: none;
+    float: right;
     text-decoration: none;
-    padding: 0 .5em;
+    padding: 10px;
     color: black;
-    transition: opacity .2s ease-in-out;
-  }
-
-  nav a:hover,
-  nav a:focus {
-    opacity: 1;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
 }
 
 
+#link-about{
+    padding-left: 40px;
+}
+
+#link-autos {
+    padding-left: 40px;
+}
+
+#link-contacto{
+    padding-left: 40px;
+}
 
 #logo {
-    position:absolute;
+    position: absolute;
     margin: 10px;
 }
 
 h1 {
     color: rgb(255, 255, 255);
-    position:relative;
+    position: relative;
+    font-style: italic;
+    font-size: 300%;
 }
-
