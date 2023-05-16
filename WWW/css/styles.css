@@ -109,3 +109,9 @@ h1 {
     font-style: italic;
     font-size: 300%;
 }
+
+.parrafito {
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
