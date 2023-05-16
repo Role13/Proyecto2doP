@@ -26,7 +26,7 @@ body {
 }
 .item3 {
     grid-area: main; 
-    margin-top: 120px;
+    margin-top: 140px;
     padding: 20px;
 }
 .item4 { 
@@ -34,7 +34,10 @@ body {
     margin-top: 160px;
     width: 200px;
     height:auto;
-    padding: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 100%;
+    padding-bottom: auto;
     text-align: center;
     color: white;
     background-color: rgb(191, 16, 0);
@@ -56,7 +59,7 @@ body {
     'header header header header header header'
     'main main main main right right'
     'footer footer footer footer footer footer';
-  gap: 20px;
+  gap: 0px;
   padding: 0px;
 }
 
@@ -122,6 +125,13 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 0%;
+    line-height: 0%;
+}
+
 .parrafito {
     text-align: center;
     padding-left: 150px;
@@ -130,23 +140,19 @@ h2 {
 
 .wrapper div:nth-child(1) {
     grid-column-end: span 2;
-    grid-row-end: span 2;
-    background-color: #525252;
+    grid-row-end: span 3;
 }
 .wrapper div:nth-child(2) {
     grid-column-end: span 2;
     grid-row-end: span 2;
-    background-color: #525252;
 }
 .wrapper div:nth-child(3) {
     grid-column-end: span 2;
     grid-row-end: span 2;
-    background-color: #525252;
 }
 .wrapper div:nth-child(4) {
     grid-column-end: span 2;
     grid-row-end: span 2;
-    background-color: #525252;
 }
 .wrapper {
     display: grid;
@@ -154,4 +160,19 @@ h2 {
     grid-auto-rows: 100px;
     gap: 10px;
     grid-auto-flow: dense;
+    text-align: center;
+}
+
+.imagenesC {
+    position:static;
+    max-height: 80%;
+    max-width: 100%;
+    margin-bottom: -20px;
+}
+
+.infoCarros {
+    position:static;
+    margin-top: 0%;
+    padding: 0px;
+    text-align: center;
 }
