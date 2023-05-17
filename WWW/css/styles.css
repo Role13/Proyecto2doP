@@ -6,7 +6,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-kerning: auto;
-  }
+}
 
 html {
     padding: 0px;
@@ -27,6 +27,7 @@ body {
 .item3 {
     grid-area: main; 
     margin-top: 12vw;
+    margin-bottom: 4vw;
     padding: .3vw;
 }
 .item4 { 
@@ -144,6 +145,7 @@ h3 {
     text-align: center;
     padding-left: 150px;
     padding-right: 150px;
+    margin-top: 4vw;
 }
 
 .wrapper div:nth-child(1) {
