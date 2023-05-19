@@ -31,4 +31,4 @@ desde la página de inicio se puede navegar en todo el sitio.
 ## Repositorios
 
 * **GitHub** - (https://github.com/Role13/Proyecto2doP.git)
-* **DockerHub** - (https://hub.docker.com/r/diegomtzglz/proyectodbp)
+* **DockerHub** - (https://hub.docker.com/r/emberbuhaj/servidor-automax2)
