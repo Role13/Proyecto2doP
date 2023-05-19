@@ -1,33 +1,68 @@
 <!DOCTYPE html>
 
-
 <html>
 
 <head>
-  <title>Formulario de Contacto</title>
-
-  <link rel="stylesheet" type="text/css">
+  <meta charset="utf-8">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Contacto</title>
 </head>
 
 <body>
-  <h1>Formulario de Contacto</h1>
+  <div class="grid-container">
+    <div class="item1">
+        <header>
+            <section>
+                <img id="logo" src="/img/AUTOmax.png" height="100px"/>
+                <span><h1>Contacto</h1></span>
+            </section>
+        
+            <nav>
+                
+                <a id="link-autos" href="/index.html">¡Conoce nuestros Autos!</a>
+                <a id="link-about" href="/about.html">Acerca de nosotros</a>
+              </nav>
+            
+        </header>
+    </div>
+    <div class="item3">
+      <h2>Búscanos en Chihuahua:</h2>
+      <center>
+        <h4> <em> ALDAMA Y V CARRANZA S/N, ZONA CENTRO , CHIHUAHUA , CHIH , C.P.31000 <br> Télefonos: (614) 000 00 00 y (614) 000 00 01</em> </h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1041.057324008004!2d-106.07401198147666!3d28.63919124574625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ea43517588f177%3A0x77269e3b58c3fd31!2sAldama%20Y%20Vicente%20Guerrero!5e0!3m2!1ses-419!2smx!4v1684456262497!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </center>
 
-  <form id="formulario">
-    <label for="nombre">Nombre:</label>
-    <input type="text" name="nombre" id="nombre" required>
-
-    <label for="email">Email:</label>
-    <input type="email" name="email" id="email" required>
-
-    <label for="mensaje">Mensaje:</label>
-    <textarea name="mensaje" id="mensaje" required></textarea>
-
-    <input type="submit" value="Enviar">
-  </form>
-
-  <script src="guardar_datos.js"></script>
-
+      <h2>Formulario de Contacto</h2>
+      <center>
+        <form id="formulario">
+          <div class="fContacto">
+            <label for="nombre">Nombre:<br></label>
+            <input type="text" name="nombre" id="nombre" required>
+          </div>
+          
+          <div class="fContacto">
+            <label for="email">Email:<br></label>
+            <input type="email" name="email" id="email" required>
+          </div>
+          
+          <div class="fContacto">
+            <label for="mensaje">Mensaje:<br></label>
+            <textarea name="mensaje" id="mensaje" required></textarea>
+          </div>
+      
+          <input type="submit" value="Enviar">
+        </form>
+      
+        <script src="guardar_datos.js"></script>
+        </p>
+      </center>
+      
+    </div>  
+   
 </body>
-
 
 </html>
